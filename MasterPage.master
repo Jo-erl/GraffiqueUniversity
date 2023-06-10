@@ -1,0 +1,132 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="keywords" content="HTML, CSS, JavaScript"/>
+	<meta name="author" content="Joel Anang"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+	  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+	<link href="Content/Site.css" rel="stylesheet" />
+	<title><%: Page.Title %> - Graffique University</title>
+
+ <asp:PlaceHolder runat="server">
+	</asp:PlaceHolder>
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+		<!--Navbar -->
+	 <nav>
+		<a class="navbar-brand" runat="server" href="~/">
+	  <img src="images/logofooter.png" alt="Graffique University Logo" />
+	</a>
+		<label for="click" class="menu-btn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<ul>
+		   <li><a runat="server" href="~/">Home</a></li>
+			<li><a href="About.aspx">About</a></li>
+			<li><a href="Faculty.aspx">Faculty</a></li>
+			<li><a href="Courses.aspx">Courses</a></li>
+			<li><a href="Contact.aspx">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!--Navbar end-->
+
+	 <!-- Video container -->
+	<div class="video-container">
+		<video autoplay loop muted>
+			<source src="videos/header.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<div class="video-text">FACULTY OF COMPUTER SCIENCE</div>
+	</div>
+	<!-- End of Video container -->
+
+	 <div class="container body-content">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server">
+			  
+			</asp:ContentPlaceHolder>
+			<hr />
+			</div>
+					 
+	 <!--Footer-->
+<footer>
+
+    <div class="footer">
+        <div class="contain">
+            <div class="col">
+                <h1>Affiliates</h1>
+                <ul>
+                    <li>Unity University</li>
+                    <li>Starlight University</li>
+                    <li>Oceanic University</li>
+                    <li>Aurora Institute</li>
+                    <li>Magnolia College</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Quick links</h1>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Request Info</li>
+                    <li>Faculty</li>
+                    <li>Apply Now</li>
+                    <li>Student Clubs</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Additional</h1>
+                <ul>
+                    <li>Campus Maps</li>
+                    <li>Course Catalogs</li>
+                    <li>Internships</li>
+                    <li>Store</li>
+                    <li>Brain Box</li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h1>Resources</h1>
+                <ul>
+                    <li>Library</li>
+                    <li>Academic calendar</li>
+                    <li>Student links</li>
+                    <li>Writing center</li>
+                    <li>Human resources</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                    <li>Web chat</li>
+                    <li>IT Support</li>
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <li><img src="images/1IG.png" width="20" style="width: 20px;"></li>
+                    <li><img src="images/2TW.png" width="20" style="width: 20px;"></li>
+                    <li><img src="images/3FB.png" width="20" style="width: 20px;"></li>
+                </ul>
+            </div>
+            <div class="col logo">
+                <img src="images/logofooter.png" alt="Website Logo">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</footer>
+<!--Footer end-->
+			
+	
+				   
+</body>
+</html>

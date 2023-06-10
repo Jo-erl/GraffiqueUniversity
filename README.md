@@ -2,7 +2,7 @@
 
 Welcome to the official repository for Graffique University, an ASP.NET website designed for an educational institution specializing in Technology.
 
-<h>Features</h1>
+<h1>Features</h1>
 Master Page: The website utilizes a master page to ensure a consistent layout and design across all pages. This allows for easy navigation and a seamless user experience.<br><br>
 
 Courses: Browse through a wide range of graphic design and visual arts courses offered by Graffique University. Each course has its own dedicated page, providing detailed information such as course description, schedule, and prerequisites.<br><br>

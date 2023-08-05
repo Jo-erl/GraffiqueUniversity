@@ -14,4 +14,4 @@ Contact: Connect with Graffique University through the contact page. Users can f
 About: Learn more about Graffique University, its mission, vision, and history. The about page provides an overview of the institution, highlighting its commitment to excellence in graphic design and visual arts education.<br><br>
 
 <h1>License</h1>
-This project is licensed under the MIT License. Feel free to modify and distribute the codebase for your own purposes. However, please be sure to include the original license file and attribute the authors appropriately.
+This project is licensed under the MIT License. 

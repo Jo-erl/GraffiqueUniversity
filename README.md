@@ -1,6 +1,5 @@
 <h1>Graffique University</h1>
-
-Welcome to the official repository for Graffique University, an ASP.NET website designed for an educational institution specializing in Technology.
+An ASP.NET website designed for an educational institution specializing in Technology.
 
 <h1>Features</h1>
 Master Page: The website utilizes a master page to ensure a consistent layout and design across all pages. This allows for easy navigation and a seamless user experience.<br><br>

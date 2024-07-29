@@ -1,7 +1,7 @@
-Graffique University
+## Graffique University
 An ASP.NET website designed for an educational institution specializing in Technology.
 
-### Features
+## Features
 Master Page: The website utilizes a master page to ensure a consistent layout and design across all pages. This allows for easy navigation and a seamless user experience.<br><br>
 
 #### Courses 
